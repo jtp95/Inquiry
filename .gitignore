@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+.DS_Store
