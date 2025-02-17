@@ -13,16 +13,16 @@
 	- Example endpoints: POST /api/signup, POST /api/login, GET /api/questions, etc.
 
 ### Phase 2: Database Setup and ORM Integration
-1. Choose a Database and ORM
+1. Choose a Database and ORM [x]
 	- Use PostgreSQL as the primary database.
 	- Use Sequelize ORM for database interactions.
-2. Set Up Database
+2. Set Up Database [x]
     - Install and configure PostgreSQL.
 	- Create a .env file to store database credentials securely.
-3. Define Database Schema
+3. Define Database Schema [x]
 	- Create models for Users, Posts, Comments, and Likes.
 	- Set up relationships between models.
-4. Migrate and Seed Data
+4. Migrate and Seed Data [x]
 	- Write Sequelize migration scripts.
 	- Seed initial data for testing.
 5. Create Query Logics
