@@ -25,7 +25,8 @@
 4. Migrate and Seed Data [x]
 	- Write Sequelize migration scripts.
 	- Seed initial data for testing.
-5. Create Query Logics
+5. Create Query Logics [x]
+6. Connect Queries with Backend API
 
 ### Phase 3: User Authentication System
 1. Implement User Signup
