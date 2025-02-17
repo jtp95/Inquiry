@@ -12,8 +12,8 @@ app.use(cors());
 app.use(express.json());
 
 // Test Route
-app.get("/", (req, res) => {
-  res.json({ message: "Backend is running!" });
+app.get('/api/test', (req, res) => {
+  res.json({ message: 'Backend is connected successfully!' });
 });
 
 // Start Server

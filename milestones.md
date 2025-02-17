@@ -5,10 +5,10 @@
 1. Set Up API Routes in Backend
 	- Create an Express route /api/test to return a test JSON response.
 	- Configure CORS to allow frontend requests.
-2. Connect Frontend with Backend
+2. Connect Frontend with Backend [x]
     - Use fetch or axios in React to request data from /api/test.
 	- Display the fetched data in a simple React component.
-3. Define API Structure
+3. Define API Structure [x]
 	- Plan and document API endpoints for future development.
 	- Example endpoints: POST /api/signup, POST /api/login, GET /api/questions, etc.
 
@@ -20,11 +20,12 @@
     - Install and configure PostgreSQL.
 	- Create a .env file to store database credentials securely.
 3. Define Database Schema
-	- Create models for User, Question, Answer, and Like.
+	- Create models for Users, Posts, Comments, and Likes.
 	- Set up relationships between models.
 4. Migrate and Seed Data
 	- Write Sequelize migration scripts.
 	- Seed initial data for testing.
+5. Create Query Logics
 
 ### Phase 3: User Authentication System
 1. Implement User Signup
